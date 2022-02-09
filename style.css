@@ -1,0 +1,365 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*@media (min-width: 400px) {
+      
+      .dent2 .cd .card{
+                width: 250px;
+                }
+     .dentt .cd .card{
+                width: 250px;
+                }
+  
+}*/
+
+@media(min-width: 300px){
+      
+  .main-head  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    }
+    .img-jmbo{
+          background-image: url("image/DentistEmergency.png");
+          background-size: cover;
+          margin-bottom: 1px;
+    }
+   .DentistEmergency{
+          padding: 10px;
+          margin: 10px;
+          text-align: left;
+   }
+        /*.lock{
+    background-color: red;
+    order: -1;
+    
+  }
+*/
+
+  
+} 
+@media(max-width: 576px){
+  .navbar-toggler{
+    margin-top: -160px;
+    padding: 10px;
+   }
+   .main-head img{
+    width: 200px;
+    margin-left: -10px;
+   }
+   .main-head1 .side1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+   }
+   .colb1{
+    border: 1px solid #05deff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 35px;
+    width: 400px;
+   
+   }
+   .footer .footer1 {
+    text-align: center;
+   }
+   .lock{
+    order: 12;
+   }
+   .lock1{
+    order: -1;
+   }
+   .dent2 .cd .card{
+    width: 360px;
+    
+   }
+   .dentt .cd .card{
+    width: 360px;
+
+   }
+
+
+}
+
+
+
+
+@media(min-width: 600px){
+      
+      .dent1{
+          margin-left: 150px;         
+      }
+     .dent2{
+        margin-left: 300px;       
+      }
+      .main-head{
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: -120px;
+         }
+         .colb1{
+             border: none;
+             border-radius: none;
+             margin: none;
+             padding: none;
+             }
+              .main-head1 .side1{
+                   margin: 5px;
+                   padding: 10px;
+                   margin-right: -50px;
+                        }
+              .main-head1 .side2{
+                   margin-left: 50px;
+                   margin-right: -40px;
+                  }
+}  
+
+
+  .list{
+  	font-size: 22px;
+  	color: black;
+  }
+  .play{
+  	width: 130px;
+  	padding: 10px;
+  }
+  .app{
+  	width: 120px;
+  }
+  .main-head{
+  	display: flex;
+    flex-wrap: wrap;
+
+  }
+  .main-head1{
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-bottom: -60px;*/
+
+  }
+ 
+  .side1{
+  	background:#05deff ;
+  	padding: 8px;
+  	border-radius: 16px;
+  	margin-right: 30px;
+  	margin: 2px;
+  	color: white;
+  	border: none;
+      }
+  .side2{
+  	border-radius: 16px;
+  	padding: 4px;
+  	background:grey;
+  	color: white;
+  	margin-right: 20px;
+    width: 70px;
+      }
+ .titl{
+     width: 300px;
+     margin-left: 20px;
+     padding: 2px;
+     margin-top: 12px;
+     height: 60px;
+     
+ }
+
+ .vid1{
+    width: 100%;
+    height:auto;
+    
+
+ }
+ .vid{
+   max-width: 100%;
+    height: auto;
+
+
+ }
+ .next{
+  margin-left: 20px;
+ }
+ .iconn{
+ 	width: 210px;
+ }
+ .card img{
+ 	text: center;
+ }
+ .cont{
+ 	width: 250px;
+ 	background: white;
+ 	color: #05deff;
+ 	font-weight: 800;
+ 	border-radius: 12px;
+  padding: 3px;
+
+ }
+ .card{
+ 	height: 300px;
+ 	background-color:#05deff ;
+ 	border-radius: 12px;
+ 
+ }
+ 
+ .icc{
+ 	color: white;
+ 	border: 1px solid #05deff;
+ 	padding: 11px;
+ 	border-radius: 20px;
+ 	background-color: #05deff;
+ }
+ .comni{
+ 	color: #05deff;
+ 	margin-right: 10px;
+ }
+ .footer{
+ 	background-color: black;
+
+ }
+ .footer1{
+ 	padding: 40px;
+ }
+ .logo1{
+  width: 300px;
+  height: 90px;
+ }
+ .navv{
+  margin-top:-40px ;
+ }
+ .logo-contain{
+       font-size: 30px;
+ }
+ .dentcont{
+  margin-top: 8px;
+ }
+ .back{
+  background-image: url(image/DentistEmergency.png);
+  display: flex;
+  background-size: cover;
+ }
+ .head-card{
+  width: 400px;
+  height: 80px;
+  border: 2px solid blue;
+  border-radius: 16px;
+ }
+ .cd .card img{
+  margin-top: -60px;
+ }
+ .cd .card{
+  width: 330px;
+  height: 190px;
+  background-color: white;
+  margin: 20px;
+ }
+
+ .dental{
+      background-image: url("image/BlueDesign.png");
+   }
+
+ .background-image{
+             display: flex;
+             background-image: url("image/bgimage.png");
+             background-size: cover;
+             background-repeat: no-repeat;
+             padding-bottom: 70px;
+  }
+    .card1{
+            background-color: rgb(63, 214, 224);
+            border:2px solid rgb(63, 214, 224);
+            border-radius: 30px;
+            margin: 8px;
+            padding: 8px;
+            color: white;
+            font-size: larger;
+  }
+   .icon-img{
+           background-color: azure;
+           border-radius: 30px;
+           border-color: rgb(63, 214, 224);
+           padding: 5px;
+           margin: 10px;
+       }
+   .card2{
+          background-color: white;
+          border:2px solid white;
+          
+          border-radius: 30px;
+          margin: 8px;
+          padding: 8px;
+          color: rgb(63, 214, 224);
+          font-size: larger;
+}
+.icon-img1{
+          background-color: rgb(63, 214, 224);
+          border-radius: 30px;
+          border-color: rgb(63, 214, 224);
+          padding: 5px;
+          margin: 10px;
+      }
+    .img-jmbo{
+          background-image: url("image/DentistEmergency.png");
+          background-size: cover;
+          margin-bottom: 1px;
+          background-size: 100% 100%;
+    }
+   .DentistEmergency{
+          padding: 30px;
+          margin: 20px;
+          text-align: left;
+   }
+
+
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 25px;
+  width: 100%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
